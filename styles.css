@@ -3,6 +3,8 @@ body {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
+  background-image: url(hatter.jpg);
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -42,14 +44,42 @@ h2 {
 p.imgtitle {
   font-size: 1.1em;
   margin: 0;
+  text-align: center;
+  border: 130%;
 }
 
 table,
 .frame {
   border: 3px solid green;
+  
 }
 
 a:link,
 a:visited {
   color: blue;
 }
+
+table *{
+
+  float: left;
+  margin-right: 25px;
+}
+
+
+table{
+
+  background-color: rgba(227, 225, 233,0.8);
+  text-align: center;
+  border-collapse: collapse;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+a:hover{
+color: yellow;
+}
+
